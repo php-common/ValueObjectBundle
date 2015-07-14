@@ -17,7 +17,7 @@
   },
   "autoload": {
     "psr-4": {
-      "Common\\ValueObject\\Bundle\\": "src/"
+      "Common\\ValueObject\\Bundle\\": ""
     }
   },
   "extra": {
