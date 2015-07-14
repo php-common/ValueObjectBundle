@@ -11,7 +11,7 @@
   }],
   "require": {
     "php": ">=5.4.0",
-    "phpcommon/valueobject": "0.*@dev",
+    "phpcommon/valueobject": "~0.1@dev",
     "symfony/form": "~2.3",
     "symfony/framework-bundle": "~2.3"
   },
