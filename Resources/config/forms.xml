@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<container xmlns="http://symfony.com/schema/dic/services"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://symfony.com/schema/dic/services
+                               http://symfony.com/schema/dic/services/services-1.0.xsd">
+
+    <parameters>
+        <parameter key="common.valueobject.form.type.point.class">Common\ValueObject\Bundle\Form\Type\PointType</parameter>
+        <parameter key="common.valueobject.form.type.ip.class">Common\ValueObject\Bundle\Form\Type\IpType</parameter>
+        <parameter key="common.valueobject.form.type.url.class">Common\ValueObject\Bundle\Form\Type\UrlType</parameter>
+        <parameter key="common.valueobject.form.type.email.class">Common\ValueObject\Bundle\Form\Type\EmailType</parameter>
+        <parameter key="common.valueobject.form.type.version.class">Common\ValueObject\Bundle\Form\Type\VersionType</parameter>
+    </parameters>
+
+    <services>
+        <service id="common.valueobject.form.type.point" class="%common.valueobject.form.type.point.class%">
+            <tag name="form.type" alias="common_point" />
+        </service>
+
+        <service id="common.valueobject.form.type.ip" class="%common.valueobject.form.type.ip.class%">
+            <tag name="form.type" alias="common_ip" />
+        </service>
+
+        <service id="common.valueobject.form.type.url" class="%common.valueobject.form.type.url.class%">
+            <tag name="form.type" alias="common_url" />
+        </service>
+
+        <service id="common.valueobject.form.type.email" class="%common.valueobject.form.type.email.class%">
+            <tag name="form.type" alias="common_email" />
+        </service>
+
+        <service id="common.valueobject.form.type.version" class="%common.valueobject.form.type.version.class%">
+            <tag name="form.type" alias="common_version" />
+        </service>
+    </services>
+</container>

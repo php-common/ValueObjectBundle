@@ -1,0 +1,28 @@
+{
+  "name": "phpcommon/valueobject-bundle",
+  "type": "library",
+  "description": "Bundle to integrate Value Objects with Symfony projects.",
+  "keywords": ["value object", "immutability", "symfony", "bundle"],
+  "homepage": "https://github.com/php-common",
+  "license": "MIT",
+  "authors": [{
+    "name": "Marcos Passos",
+    "email": "marcos@marcospassos.com"
+  }],
+  "require": {
+    "php": ">=5.4.0",
+    "phpcommon/valueobject": "0.0.*@dev",
+    "symfony/form": "~2.3",
+    "symfony/framework-bundle": "~2.3"
+  },
+  "autoload": {
+    "psr-4": {
+      "Common\\ValueObject\\Bundle\\": "src/"
+    }
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "0.0.1-dev"
+    }
+  }
+}
