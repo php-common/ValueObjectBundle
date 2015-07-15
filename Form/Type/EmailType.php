@@ -9,7 +9,7 @@ use Symfony\Component\Form\FormBuilderInterface;
 /**
  * Email type.
  *
- * @author Marcos Passos <marcos@croct.com>
+ * @author Marcos Passos <marcos@marcospassos.com>
  */
 class EmailType extends AbstractType
 {

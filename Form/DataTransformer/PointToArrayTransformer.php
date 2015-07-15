@@ -9,7 +9,7 @@ use Symfony\Component\Form\Exception\TransformationFailedException;
 /**
  * Transforms a point object into array and vice versa.
  *
- * @author Marcos Passos <marcos@croct.com>
+ * @author Marcos Passos <marcos@marcospassos.com>
  */
 class PointToArrayTransformer implements DataTransformerInterface
 {

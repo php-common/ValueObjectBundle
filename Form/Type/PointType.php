@@ -10,7 +10,7 @@ use Symfony\Component\OptionsResolver\OptionsResolver;
 /**
  * Point type.
  *
- * @author Marcos Passos <marcos@croct.com>
+ * @author Marcos Passos <marcos@marcospassos.com>
  */
 class PointType extends AbstractType
 {

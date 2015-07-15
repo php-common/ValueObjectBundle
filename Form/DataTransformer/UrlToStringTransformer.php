@@ -10,7 +10,7 @@ use InvalidArgumentException;
 /**
  * Transforms an URL object into string and vice versa.
  *
- * @author Marcos Passos <marcos@croct.com>
+ * @author Marcos Passos <marcos@marcospassos.com>
  */
 class UrlToStringTransformer implements DataTransformerInterface
 {

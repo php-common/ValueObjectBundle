@@ -10,7 +10,7 @@ use Symfony\Component\Config\FileLocator;
 /**
  * Value Object Extension.
  *
- * @author Marcos Passos <marcos@croct.com>
+ * @author Marcos Passos <marcos@marcospassos.com>
  */
 class CommonValueObjectExtension extends Extension
 {

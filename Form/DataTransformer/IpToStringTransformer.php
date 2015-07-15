@@ -9,7 +9,7 @@ use Symfony\Component\Form\Exception\TransformationFailedException;
 /**
  * Transforms an IP object into string and vice versa.
  *
- * @author Marcos Passos <marcos@croct.com>
+ * @author Marcos Passos <marcos@marcospassos.com>
  */
 class IpToStringTransformer implements DataTransformerInterface
 {
